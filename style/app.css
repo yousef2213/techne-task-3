@@ -1,0 +1,20 @@
+/* font goolge */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.img {
+    max-height: 400px !important;
+}
+.col-md-3e {
+    width: 20%;
+}
+
+@media (max-width: 600px) {
+    .col-md-3e {
+        width: 100% !important;
+    }
+}
